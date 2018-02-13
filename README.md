@@ -66,7 +66,7 @@ sudo sh -c 'echo b43 >> /etc/modules'
 sudo sh -c 'echo "managed=true
 
 [ifupdown]
-managed=true"' >> /etc/NetworkManager/NetworkManager.conf'
+managed=true" >> /etc/NetworkManager/NetworkManager.conf'
 ```
 
 ```
