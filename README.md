@@ -16,7 +16,7 @@ sudo pacman -S packer git base-devel xorg-server xf86-video-fbdev xorg-xrefresh 
 ```
 
 ```
-packer -S  ttf-roboto-mono paper-icon-theme-git  pi-bluetooth 
+packer -S ttf-roboto-mono paper-icon-theme-git pi-bluetooth 
 ```
 
 ```
@@ -39,7 +39,7 @@ sudo curl https://img2.goodfon.com/original/2048x1820/3/b6/android-5-0-lollipop-
 ```
 
 ```
-sudo sh -c 'echo "@testing http://dl-cdn.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositories
+sudo sh -c 'echo "@testing http://dl-cdn.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositories'
 ```
 
 ```
@@ -66,7 +66,7 @@ sudo sh -c 'echo b43 >> /etc/modules'
 sudo sh -c 'echo "managed=true
 
 [ifupdown]
-managed=true"' >> /etc/NetworkManager/NetworkManager.conf
+managed=true"' >> /etc/NetworkManager/NetworkManager.conf'
 ```
 
 ```
