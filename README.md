@@ -47,7 +47,7 @@ sudo setup-xorg-base
 ```
 
 ```
-sudo apk --update --no-cache add xf86-video-fbdev xf86-input-mouse xf86-input-keyboard xfce4 xfce4-mixer xfce4-wavelan-plugin lxdm paper-icon-theme arc-theme gvfs gvfs-smb sshfs wpa_supplicant networkmanager network-manager-applet@testing gnome-keyring
+sudo apk --update --no-cache add xf86-video-fbdev xf86-input-mouse xf86-input-keyboard xfce4 xfce4-mixer xfce4-wavelan-plugin lxdm paper-icon-theme arc-theme@testing gvfs gvfs-smb sshfs wpa_supplicant networkmanager network-manager-applet@testing gnome-keyring
 ```
 
 ```
